@@ -5,8 +5,8 @@ import "./index.css";
 import App from "./App";
 import store from "./store";
 
-store.dispatch({ type: "account/deposit", payload: 250 });
-console.log(store.getState());
+// store.dispatch({ type: "account/deposit", payload: 250 });
+// console.log(store.getState());
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

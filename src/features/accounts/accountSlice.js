@@ -44,7 +44,7 @@ export function deposit(amount) {
 }
 
 export function withdraw(amount) {
-  return { type: "account/deposit", payload: amount };
+  return { type: "account/withdraw", payload: amount };
 }
 
 export function requestLoan(amount, purpose) {
